@@ -36,6 +36,7 @@ int main(){
     cin>>k;
 
     c=binary_search(arr,n-1,0,k);
+        
     if(c>0){
         cout<<"Key element found \n";
     }
